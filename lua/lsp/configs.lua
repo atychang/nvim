@@ -5,14 +5,14 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers = { "jsonls", "sumneko_lua", "rust_analyzer", "bashls", "yamlls", "pyright", "cssls", "html", "emmet-ls" }
+local servers =
+  { "jsonls", "sumneko_lua", "rust_analyzer", "bashls", "yamlls", "pyright", "cssls", "html", "emmet-ls", "eslint" }
 
 lsp_installer.setup({
   ensure_installed = servers,
 })
 
 for _, server in pairs(servers) do
-
   local opts = {
     on_attach = require("lsp.handlers").on_attach,
     capabilities = require("lsp.handlers").capabilities,
