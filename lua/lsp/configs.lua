@@ -11,7 +11,7 @@ local servers = {
   "clangd",
   "cmake",
   "dockerls",
-  "emmet-ls",
+  "emmet_ls",
   "eslint",
   "gopls",
   "graphql",
