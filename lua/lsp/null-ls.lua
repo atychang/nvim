@@ -29,6 +29,7 @@ null_ls.setup({
         "json",
         "yaml",
         "graphql",
+        "xml",
       },
       prefer_local = "node_modules/.bin",
     }),
@@ -38,6 +39,10 @@ null_ls.setup({
     formatting.isort,
     formatting.google_java_format,
     formatting.ktlint,
+    formatting.remark,
+    formatting.clang_format,
+    formatting.cmake_format,
+    formatting.gofmt,
 
     -- Diagnostics --
     diagnostics.eslint.with({
