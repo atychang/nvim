@@ -5,8 +5,18 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers =
-  { "jsonls", "sumneko_lua", "rust_analyzer", "bashls", "yamlls", "pyright", "cssls", "html", "emmet-ls", "eslint" }
+local servers = {
+  "bashls",
+  "cssls",
+  "emmet-ls",
+  "eslint",
+  "html",
+  "jsonls",
+  "pyright",
+  "rust_analyzer",
+  "sumneko_lua",
+  "yamlls",
+}
 
 lsp_installer.setup({
   ensure_installed = servers,
