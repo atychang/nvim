@@ -61,6 +61,9 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
+    "emmet-ls",
+    "json-lsp",
+    "graphql-language-service-cli",
 
     -- c/cpp
     "clangd",
@@ -80,6 +83,30 @@ M.mason = {
     "flake8",
     "black",
     "isort",
+
+    -- awk
+    "awk-language-server",
+
+    -- protobuf
+    "buf",
+
+    -- cmake
+    "cmake-language-server",
+    "cmakelang",
+
+    -- docker
+    "dockerfile-language-server",
+
+    -- golang
+    "gopls",
+    "gofumpt",
+
+    -- vim
+    "vim-language-server",
+
+    -- yaml
+    "yaml-language-server",
+    "yamllint",
   },
 }
 

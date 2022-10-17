@@ -48,6 +48,16 @@ local sources = {
   b.formatting.black,
   b.formatting.isort,
   b.diagnostics.flake8,
+
+  -- cmake
+  b.formatting.cmake_format,
+  b.diagnostics.cmake_lint,
+
+  -- golang
+  b.formatting.gofumpt,
+
+  -- yaml
+  b.diagnostics.yamllint,
 }
 
 null_ls.setup {

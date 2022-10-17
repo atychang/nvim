@@ -11,6 +11,17 @@ local servers = {
   "clangd",
   "rust_analyzer",
   "pyright",
+  "emmet_ls",
+  "jsonls",
+  "awk_ls",
+  "bufls",
+  "cmake",
+  "denols",
+  "dockerls",
+  "gopls",
+  "graphql",
+  "vimls",
+  "yamlls",
 }
 
 for _, lsp in ipairs(servers) do
