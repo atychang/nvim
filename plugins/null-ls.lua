@@ -32,6 +32,7 @@ local sources = {
 
   -- lua
   b.formatting.stylua,
+  b.diagnostics.luacheck,
 
   -- shell
   b.formatting.shfmt,
@@ -58,6 +59,21 @@ local sources = {
 
   -- yaml
   b.diagnostics.yamllint,
+
+  -- null-ls built-in sources
+  -- code actions
+  b.code_actions.gitrebase,
+  b.code_actions.gitsigns,
+  b.code_actions.refactoring,
+  -- completion
+  b.completion.spell,
+  b.completion.tags,
+  -- diagnostics
+  b.diagnostics.buf,
+  b.diagnostics.buildifier,
+  b.diagnostics.checkmake,
+  b.diagnostics.commitlint,
+  b.diagnostics.zsh,
 }
 
 null_ls.setup {
