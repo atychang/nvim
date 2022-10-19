@@ -33,4 +33,11 @@ return {
       require("better_escape").setup()
     end,
   },
+
+  ["rcarriga/nvim-dap-ui"] = {
+    requires = { "mfussenegger/nvim-dap" },
+    config = function()
+      require("dapui").setup()
+    end,
+  },
 }
