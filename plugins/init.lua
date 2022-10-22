@@ -34,8 +34,9 @@ return {
     end,
   },
 
+  ["mfussenegger/nvim-dap"] = {},
+
   ["rcarriga/nvim-dap-ui"] = {
-    requires = { "mfussenegger/nvim-dap" },
     config = function()
       require("dapui").setup()
     end,
