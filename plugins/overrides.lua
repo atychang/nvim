@@ -77,6 +77,7 @@ M.mason = {
 
     -- rust
     "rust-analyzer",
+    "codelldb",
 
     -- python
     "pyright",
