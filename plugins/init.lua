@@ -55,4 +55,11 @@ return {
       require "custom.plugins.rust-tools"
     end,
   },
+
+  ["kylechui/nvim-surround"] = {
+    tag = "*",
+    config = function()
+      require("nvim-surround").setup()
+    end,
+  },
 }
