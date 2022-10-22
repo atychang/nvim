@@ -84,6 +84,7 @@ M.mason = {
     "flake8",
     "black",
     "isort",
+    "debugpy",
 
     -- awk
     "awk-language-server",
