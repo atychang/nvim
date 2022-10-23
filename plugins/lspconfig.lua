@@ -16,7 +16,6 @@ local servers = {
   "awk_ls",
   "bufls",
   "cmake",
-  "denols",
   "dockerls",
   "gopls",
   "graphql",
